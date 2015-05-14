@@ -3,7 +3,7 @@ openvswitch
 
 UPDATE: Works now with OpenWrt "Barrier Breaker" (Bleeding Edge)
 
-Open vSwitch 1.9.0 (OvS) package for OpenWrt
+Open vSwitch 2.3.1 (OvS) package for OpenWrt
 
 Installation
 ------------
@@ -14,7 +14,7 @@ Install this as a feed!
 
 > cd $TOPDIR
 > 
-> echo 'src-git openvswitch git://github.com/schuza/openvswitch.git' >> feeds.conf
+> echo 'src-git openvswitch git://github.com/alis0nc/openvswitch.git' >> feeds.conf
 >
 > ./scripts/feeds update openvswitch
 >
